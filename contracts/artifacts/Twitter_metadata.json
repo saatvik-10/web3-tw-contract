@@ -178,6 +178,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_author",
+						"type": "address"
+					}
+				],
+				"name": "getTotalLikes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
@@ -343,11 +362,11 @@
 	},
 	"sources": {
 		"contracts/_Tw.sol": {
-			"keccak256": "0xa0ce7aeb6aebd3318bdd8d67b69d5a095fdced3b9edf518b20277d7325680f3b",
+			"keccak256": "0x4a6481df61e0cc696707fbf8cb96a837e4e7cdf460406f48c285651bfcf5f91f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a5f8f3202404f3a78ad935610289e717af2486ff99731472176d95b0a583d53c",
-				"dweb:/ipfs/QmNMaBLiKtkssXsegKzZu6bN6MxfuPff5fpmW6Q77JCxVa"
+				"bzz-raw://65b52a36668416317c9801d9e89bcf23b50dc78d43f670abe016b03116b66891",
+				"dweb:/ipfs/QmfUqgVLMpfkLcaZJUqwF9CC8xemtTZaZZTBhEpEQHMymG"
 			]
 		}
 	},
