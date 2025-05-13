@@ -62,11 +62,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
@@ -173,11 +168,11 @@
 	},
 	"sources": {
 		"contracts/_Tw.sol": {
-			"keccak256": "0x5f8253679a10820348aa2701ea79efa7ace59e3e8d8e06eff3bfb0d29cdf52fa",
+			"keccak256": "0xca58fb70fab55305be1d73b6aeffb642b1cc14e3e5b85e031c295e8fca54764f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c183a810b0fab2cb704e1c33cef782f6497edbff0e9e0d64059da40df7d83e22",
-				"dweb:/ipfs/QmcdqtwjpmheYLge3twzkTqVD6UpRPxHJZY2AXorKboiLm"
+				"bzz-raw://f9759ec8789f9a9760f40f87fed87196b06e83b1c13a32e35e1f987d6745c8b2",
+				"dweb:/ipfs/QmUt57HLoGA99365g9rnnhzrpNi1cT4WzBCWPHwvPGH7XG"
 			]
 		}
 	},
