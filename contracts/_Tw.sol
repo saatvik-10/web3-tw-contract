@@ -12,8 +12,19 @@ contract Twitter {
     }
 
     mapping(address =>  Tweet[]) public tweets;
+    
+    address public owner;
 
-    function changeTweetLength(uint16 newTweetLength) public {
+    constructor() {
+        owner = msg.sender;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "You are not the contract owner");
+        _;
+    }
+
+    function changeTweetLength(uint16 newTweetLength) public onlyOwner{
         MAX_TWEET_LENGTH = newTweetLength;
     }
 
